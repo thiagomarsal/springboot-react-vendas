@@ -4,10 +4,12 @@ import axios from 'axios'
 import { SaleSuccess } from 'types/sale'
 import { round } from 'utils/format'
 import { BASE_URL } from 'utils/requests'
+
 type SeriesData = {
     name: string;
     data: number[];
 }
+
 type ChartData = {
     labels: {
         categories: string[];
