@@ -41,7 +41,7 @@ const DataTable = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        {page.content?.map(item => {
+                        {page.content?.map(item => (
                             <tr key={item.id}>
                                 <td>{formatLocalDate(item.date, "dd//MM/yyyy")}</td>
                                 <td>{item.seller.name}</td>
@@ -49,7 +49,7 @@ const DataTable = () => {
                                 <td>{item.deals}</td>
                                 <td>{item.amount.toFixed(2)}</td>
                             </tr>
-                        })}
+                        ))}
                     </tbody>
                 </table>
             </div>
