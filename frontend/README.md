@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/276c034f-b366-4c04-87c0-f27e2054706f/deploy-status)](https://app.netlify.com/sites/springboot-react-vendas-thiagomarsal/deploys)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
